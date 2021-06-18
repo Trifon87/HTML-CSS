@@ -1,0 +1,27 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+a , i{
+    color : white
+}
+body{
+    padding: 40px 40px;
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+p {
+    margin-bottom: 30px;
+
+}
+
+p:nth-child(1) a {
+    background-color: #008006;
+}
+
+p:nth-child(2) a {
+    background-color: #FF8C00;
+}
